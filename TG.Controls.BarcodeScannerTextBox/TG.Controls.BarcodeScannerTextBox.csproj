@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net20;net45;</TargetFrameworks>
+    <AssemblyName>TG.Controls.BarcodeScannerTextBox</AssemblyName>
+    <RootNamespace>TG.Controls</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Using key press timing, this TextBox only allows text to be entered from a bar code scanner.</Description>
+    <Copyright>Copyright © Troy Geiger 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/troygeiger/TG.Controls.BarcodeScannerTextBox/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/troygeiger/TG.Controls.BarcodeScannerTextBox</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/troygeiger/TG.INI/master/TG.INI/TG.png</PackageIconUrl>
+    <PackageTags>TextBox</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+</Project>
